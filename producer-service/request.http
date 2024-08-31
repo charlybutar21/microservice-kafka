@@ -1,0 +1,8 @@
+### POST request to producer
+POST http://localhost:8080/order
+Content-Type: application/json
+
+{
+    "item": "Mie Goreng",
+    "amount": 30000
+}
